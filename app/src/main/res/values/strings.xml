@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">KawaiTodoList</string>
+    <string-array name="ThemeColors">
+        <item>Select a Theme Color</item>
+        <item>StrawBerry</item>
+        <item>FroggyGreen</item>
+        <item>BearCoffee</item>
+        <item>Babyblue</item>
+        <item>YellowBee</item>
+        <item>KittyPink</item>
+    </string-array>
 </resources>

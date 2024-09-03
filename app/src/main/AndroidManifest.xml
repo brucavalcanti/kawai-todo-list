@@ -15,9 +15,17 @@
         android:theme="@style/Theme.KawaiTodoList"
         tools:targetApi="31">
         <activity
+            android:name=".activities.ListActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.BoardActivity"/>
+        <activity
+            android:name=".activities.AddListActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.BoardActivity" />
+        <activity
             android:name=".activities.RegisterActivity"
             android:exported="false"
-            android:parentActivityName=".activities.LoginActivity"/>
+            android:parentActivityName=".activities.LoginActivity" />
         <activity
             android:name=".activities.BoardActivity"
             android:exported="false" />
